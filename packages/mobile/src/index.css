@@ -1,0 +1,48 @@
+@layer theme, base, components, features, utilities;
+
+@import "tailwindcss";
+@import "@repo/ui/src/styles/tokens.css";
+@import "@repo/ui/src/styles/components.css";
+@import "./theme.css";
+
+@source "../../ui/src";
+@source "../../features/src";
+@source "./";
+
+:root {
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 16px/145% var(--sans);
+  letter-spacing: 0.1px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0 0 6px;
+}
+
+p {
+  margin: 0;
+}

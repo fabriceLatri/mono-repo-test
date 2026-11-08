@@ -1,0 +1,21 @@
+{
+  "name": "@repo/shared",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./core": "./src/core/index.ts",
+    "./features": "./src/features/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.14.0",
+    "@repo/ui": "*",
+    "i18next": "^27.0.1",
+    "react": "^19.3.1",
+    "react-i18next": "^18.0.0",
+    "react-redux": "^9.3.1"
+  }
+}

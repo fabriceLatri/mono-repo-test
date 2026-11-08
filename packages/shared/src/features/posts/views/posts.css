@@ -1,0 +1,13 @@
+@layer features {
+  .posts-list .card {
+    border-color: var(--color-accent-border);
+  }
+
+  .posts-list .card h2 {
+    color: var(--color-accent);
+  }
+
+  .posts-list .btn-primary {
+    background-color: var(--color-text-strong);
+  }
+}

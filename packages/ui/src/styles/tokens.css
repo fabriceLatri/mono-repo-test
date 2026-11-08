@@ -1,0 +1,15 @@
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--code-bg);
+  --color-elevated: var(--bg-elevated);
+  --color-text: var(--text);
+  --color-text-strong: var(--text-h);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-bg: var(--accent-bg);
+  --color-accent-border: var(--accent-border);
+
+  --radius-card: var(--card-radius);
+  --radius-control: var(--control-radius);
+  --shadow-card: var(--shadow);
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@repo/ui",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@tanstack/react-virtual": "^3.14.26",
+    "clsx": "^2.1.1",
+    "react": "^19.3.1",
+    "react-aria-components": "^1.22.1",
+    "tailwind-merge": "^3.7.0"
+  }
+}
